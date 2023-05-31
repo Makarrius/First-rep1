@@ -1,0 +1,138 @@
+*{
+    margin:0 ;
+}
+.backImage{
+    background-image:url("images/Group 1 (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.header{
+    background-color: #1A2749;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
+}
+
+li{
+    margin-right: 40px;
+    font-size: 30 px;
+}
+.backsmage{
+    height: 7px;
+    background-color: black;
+    
+
+}
+.fnaf{
+    background-color: #1A2749;
+    color: aliceblue;
+    height: 59px;
+    width: 1100px;
+    margin-left: auto;
+
+    
+}
+
+.fnafsb{
+    background-image:url("../images/download2 1.png") ;
+    width: 247px; 
+    height: 352px;
+    position: absolute;
+
+}
+
+.cinema1 {
+    background-color: #070915;
+    padding: 35px 0;
+    color: white;
+
+}
+.cinema2 {
+    background-color: #00000A;
+    padding: 35px 0;
+    color: white;
+
+}
+.cinema3 {
+    background-color: #010101;
+    padding: 35px 0;
+    color: white;
+
+}
+
+.cinema-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cinema-img {
+    width: 300px;
+    height: 350px;
+    margin: 0px;
+    transition: transform 3s
+    
+}
+.cinema-img:hover{
+    transform:scale(1.2);
+    transition: transform 3s
+    
+}
+.cinema-info {
+
+}
+.cinema-title{
+    margin: auto;
+
+    height:79px;
+
+}
+.backsm{
+    height: 100px;
+    background-color: grey;
+    color: white;
+
+
+}
+.backs{
+    background-color: grey;
+    color: white;
+}
+.logo{
+    transition: transform 1s;
+}
+.logo:active{
+    transform: rotate(180deg);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo{
+        max-width: 100px;
+    }
+    main{
+        min-height:65vh;
+    }
+    section{
+        width:30%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .logo{
+        max-width: 60px;
+    }
+    main{
+        min-height:65vh;
+    }
+    section{
+        width:20%;
+    }
+
+}
